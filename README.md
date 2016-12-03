@@ -1,9 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby on Rails Tutorial sample application 'enough_app'
 
-Things you may want to cover:
+This is a sample application built using the Ruby on Rail Tutorial:
+by [Michael Hart]
 
 * Ruby version
 
