@@ -65,8 +65,8 @@ p {
 	letter-spacing: -1px;
 	padding-top: 9px;
 	font-weight: bold;
-	&hover {
-		color: white;
+	&:hover {
+		color: red;
 		text-decoration: none;
 	}
 }
