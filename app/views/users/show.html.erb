@@ -1,4 +1,4 @@
-<% the_user = @user.name %>
+
 <% provide(:title, @user.name) %>
 <div class="row">
 	<aside class="col-md-4">
@@ -11,8 +11,10 @@
 	</aside>
 	<div class="col-md-8">
 		<% if @user.microposts.any? %>
-			<h3>Microposts (<%=@user.microposts.count %>)</h3>
-			<ol class="microposts"><%= render @microposts %></ol>
+			<h3>Microposts (<%= @user.microposts.count %>)</h3>
+			<ol class="microposts">
+				<%= render @microposts %>
+			</ol>
 			<%= will_paginate @microposts %>
 		<% end %>
 	</div>
