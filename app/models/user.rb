@@ -64,6 +64,13 @@ class User < ApplicationRecord
 		reset_set_at < 2.hours.ago
 	end
 
+	# Defines a proto-feed
+	# See following users for full implementation
+
+	def feed
+		Micropost.where("user_id = ?", id)
+	end
+
 
 
 	private
