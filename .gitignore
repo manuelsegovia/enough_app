@@ -27,3 +27,6 @@
 
 #apple finder 
 .DS_Store
+
+# Ignore uploaded test images.
+/public/uploads
